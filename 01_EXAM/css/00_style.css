@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+:root {
+    --black: black;
+    --gray: gray;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+font-family: "Montserrat", "Noto Sans KR", sans-serif;
+}
+
+li {list-style-type: none;}
+
+a {
+    text-decoration: none; 
+    color: var(--black);
+}
